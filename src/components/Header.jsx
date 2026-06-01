@@ -7,8 +7,8 @@ function Header() {
   return (
     <div className='flex justify-center items-center bg-black'>
       <nav className='w-full max-lg:px-5 container flex justify-between items-center py-5 bg-black text-white'>
-        <span className='text-xl font-bold flex items-center gap-2'>
-          <LuTarget />Alpha Academy
+        <span className='text-xl lg:text-3xl font-bold flex items-center gap-2'>
+          <LuTarget className=''/>Alpha Academy
         </span>
         <MdOutlineMenu className='lg:hidden '/>
         <ul className='hidden lg:flex justify-center items-center gap text-lg font-semibold '>
