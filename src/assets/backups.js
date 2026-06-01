@@ -1,0 +1,5 @@
+const hero = `<div className=' w-full h-screen  relative flex flex-col pt-45 items-center ' style={{ backgroundImage: "url('https://www.investopedia.com/thmb/pzhoeZlbsQxVEJJ9_zvZw-w7_CY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Tacticaltrading-6e3d1c5036f042b981b7b82901cba711.jpg')", backgroundPosition: "center", backgroundSize: "cover" }}>
+                    {/* <img src="https://images.unsplash.com/photo-1689732888407-310424e3a372?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className='h-[500px] w-full object-cover object-center' alt="" /> */}
+                    {/* <img src="\src\assets\PointingWojak2.png" className='absolute bottom-0 left-0 w-60 h-50 lg:w-120 lg:h-100 ' alt="" /> */}
+                    <span className='text-white text-5xl lg:text-7xl outfit'>Stop guessing. <br /> Start trading. </span>
+                </div>`
