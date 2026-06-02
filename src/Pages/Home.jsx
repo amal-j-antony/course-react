@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 import testimonial from '../assets/testimonials'
 import courses from '../assets/courses'
 
+
+
 function Home() {
     const course1 = "/vecteezy_expert-marketing-broker-stock-trader-present-stock-market-in_5084897.jpg"
+    const [isMobile,setIsMobile] = useState(false)
     
     return (
         <>
@@ -17,13 +20,13 @@ function Home() {
             </section>
             <section className='flex flex-col justify-center items-center bg-black pt-10'>
                 <div className='flex max-lg:flex-col justify-center items-center bg-white text-black w-full h-100px rounded-xl container' >
-                    <div className='lg:ps-30 max-lg:text-center text-2xl lg:text-5xl outfit'>
+                    <div className='p-10 lg:ps-30 max-lg:text-left text-3xl lg:text-5xl outfit'>
                         One Platform.
                         <br />
                         Three trading styles.
                         <div className='text-xl lg:text-2xl'>Learn to trade based on narratives , technical analysis and quant algorithms. Choose and master one path, then move on to the next.</div>
                     </div>
-                    <img width={'600px'} height={"600px"} className='rounded-xl max-lg:w-[300px] max-lg:h-[300px]' src="src\assets\vecteezy_investors-hunting-for-coins-in-investment-trading_4689192-1.jpg" alt="" />
+                    <img width={'600px'} height={"600px"} className='rounded-xl max-lg:w-[300px] max-lg:h-[300px]' src='/vecteezy_investors-hunting-for-coins-in-investment-trading_4689192-1.jpg' alt="" />
                 </div>
 
                 <div className="bg-black grid grid-cols-1 lg:grid-cols-3 container mt-10 gap-10">

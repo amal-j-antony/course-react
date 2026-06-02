@@ -3,7 +3,7 @@ import { LuTarget } from "react-icons/lu";
 
 function Footer() {
   return (
-    <div className='flex justify-center items-center bg-black border border-t-zinc-800 py-5'>
+    <div className='flex justify-center items-center bg-black border border-t-white py-10'>
 
       <footer className='container w-75 lg:w-full flex max-lg:flex-col gap-20 justify-center max-lg:  bg-black text-white '>
 

@@ -1,5 +1,5 @@
 const paths = [{
-    image: "/Screenshot 2026-06-01 234828.png",
+    image: "/narrative.png",
     title: "Narrative and sentiment based trading"
 },
 {
