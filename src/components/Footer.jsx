@@ -3,9 +3,9 @@ import { LuTarget } from "react-icons/lu";
 
 function Footer() {
   return (
-    <div className='flex justify-center items-center bg-black border border-t-white py-10'>
+    <div className='flex justify-center items-center bg-black border border-black border-t-white py-10'>
 
-      <footer className='container w-75 lg:w-full flex max-lg:flex-col gap-20 justify-center max-lg:  bg-black text-white '>
+      <footer className='container w-75 lg:w-full flex max-lg:flex-col gap-20 justify-center max-lg:max-w-[90vw]  bg-black text-white '>
 
         <div className="">
           <h1 className='text-3xl font-semibold flex items-center'>

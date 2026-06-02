@@ -19,6 +19,10 @@
   font-style: normal;
 }
 
+/* * {
+  outline: 1px red solid;
+} */
+
 @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: 'Geist Variable', sans-serif;

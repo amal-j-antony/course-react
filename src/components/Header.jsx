@@ -11,6 +11,7 @@ import {
   DrawerTitle,
   DrawerTrigger,
 } from "@/components/ui/drawer"
+
 import { Link } from 'react-router-dom';
 
 
@@ -24,7 +25,7 @@ function Header() {
   }
   return (
     <div className='flex justify-center items-center bg-black'>
-      <nav className='w-full max-lg:px-5 container flex justify-between items-center py-5 bg-black text-white'>
+      <nav className='w-full container max-lg:max-w-[90vw] flex justify-between items-center py-5 bg-black text-white'>
         <span className='text-3xl font-bold flex items-center gap-2'>
           <LuTarget className='' />Alpha Academy
         </span>
@@ -47,8 +48,8 @@ function Header() {
         </Drawer>
 
         <ul className='hidden lg:flex justify-center items-center gap text-lg font-semibold '>
-          <li className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>Home</li>
-          <li className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>Course</li>
+          <Link to={"/"} className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>Home</Link>
+          <Link to={"/course"} className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>Course</Link>
           <li className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>Log in</li>
           <li className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>Join for Free</li>
         </ul>
