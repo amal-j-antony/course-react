@@ -6,6 +6,7 @@ import { AiFillFund } from "react-icons/ai";
 import { IoMdLogIn } from "react-icons/io";
 import { RiLoginCircleFill } from "react-icons/ri";
 
+
 import {
   Drawer,
   DrawerClose,
@@ -18,6 +19,8 @@ import {
 } from "@/components/ui/drawer"
 
 import { Link } from 'react-router-dom';
+import LoginBtn from './LoginBtn';
+import RegisterBtn from './RegisterBtn';
 
 
 
@@ -58,7 +61,7 @@ function Header() {
               <DrawerClose asChild>
                 <Link className='text-2xl py-1 flex items-center gap-1' >
                   <IoMdLogIn />
-                  Log In
+                  <LoginBtn/>
                 </Link>
               </DrawerClose>
 
@@ -77,8 +80,12 @@ function Header() {
           <Link to={"/"} className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>Home</Link>
           <Link to={"/course"} className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>Course</Link>
           <Link to={"/about"} className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>About</Link>
-          <li className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>Log in</li>
-          <li className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>Join for Free</li>
+          <li className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>
+            <LoginBtn/>
+          </li>
+          <li className='hover:bg-white hover:text-black px-3 py-1 rounded-xl cursor-pointer'>
+            <RegisterBtn/>  
+          </li>
         </ul>
       </nav>
     </div>
