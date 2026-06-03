@@ -16,13 +16,13 @@ function Home() {
         <>
 
             <section className='flex justify-center items-center bg-black '>
-                <div className="container max-lg:max-w-[90vw] rounded-3xl h-[60vh] sm:h-[90vh] bg-white flex max-lg:flex-col justify-center items-center">
+                <div className="container max-w-[90vw] rounded-3xl h-[60vh] sm:h-[90vh] bg-white flex max-lg:flex-col justify-center items-center">
                     <img src="/Project_185-04_generated.jpg" className=' lg:h-[400px] max-md:w-' alt="" />
                     <span className=' text-5xl lg:text-7xl outfit'>Stop guessing. <br /> Start trading. </span>
                 </div>
             </section>
             <section className='flex flex-col justify-center items-center bg-black pt-10'>
-                <div className='flex max-lg:flex-col justify-center items-center bg-white text-black w-full h-100px rounded-xl max-lg:max-w-[90vw] container' >
+                <div className='flex max-lg:flex-col justify-center items-center bg-white text-black w-full h-100px rounded-xl max-w-[90vw] xl:max-w-[1400px] container' >
                     <div className='p-10 lg:ps-30 max-lg:text-left text-3xl lg:text-5xl outfit'>
                         One Platform.
                         <br />
@@ -32,7 +32,7 @@ function Home() {
                     <img width={'600px'} height={"600px"} className='rounded-xl max-lg:w-[300px] max-lg:h-[300px]' src='/vecteezy_investors-hunting-for-coins-in-investment-trading_4689192-1.jpg' alt="" />
                 </div>
 
-                <div className="bg-black grid grid-cols-1 lg:grid-cols-3 container max-lg:max-w-[90vw] mt-10 gap-10">
+                <div className="bg-black grid grid-cols-1 lg:grid-cols-3 container max-w-[90vw] mt-10 gap-10">
                     {/* <div className="bg-white rounded-xl relative p-5 grid grid-cols-1">
                         <img src="/Screenshot 2026-06-01 234828.png" alt="narrative trading" />
                         <h1 className='text-center text-xl py-3'>Narrative and sentiment based trading</h1>
@@ -51,7 +51,7 @@ function Home() {
                     }
                 </div>
 
-                <div className="bg-white grid grid-cols-1 md:grid-cols-3 max-md:max-w-[90vw] container mt-10 rounded-2xl py-10 px-10">
+                <div className="bg-white grid grid-cols-1 md:grid-cols-3 max-w-[90vw] container mt-10 rounded-2xl py-10 px-10">
                     <div className="flex flex-col justify-center items-center gap-5">
                         <img className='h-80 w-full' src="/vecteezy_expert-marketing-broker-stock-trader-present-stock-market-in_5084897.jpg" alt="" />
                         {/* <div className='absolute w-full h-full flex justify-center items-center top-0 '>
@@ -68,12 +68,12 @@ function Home() {
                         <h1 className='text-2xl font-semibold'>Become an onchain alpha hunter</h1>
                     </div>
                 </div>
-                <button className='bg-white px-5 py-3 w-full max-md:max-w-[90vw] container rounded-lg my-10 border text-xl font-semibold flex justify-center items-center gap-4 hover:bg-black hover:border-white hover:text-white cursor-pointer'>
+                <button className='bg-white px-5 py-3 w-full max-w-[90vw] container rounded-lg my-10 border text-xl font-semibold flex justify-center items-center gap-4 hover:bg-black hover:border-white hover:text-white cursor-pointer'>
                     View Courses <FaArrowRight />
                 </button>
             </section>
             <section className='flex flex-col justify-center items-center bg-black'>
-                <div className="flex flex-col justify-center items-center bg-white w-full max-md:max-w-[90vw] container rounded-xl px-10">
+                <div className="flex flex-col justify-center items-center bg-white w-full max-w-[90vw] container rounded-xl px-10">
                     <h1 className='my-5 font-semibold text-3xl'>What our users say</h1>
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 pb-10'>
                         {
@@ -93,7 +93,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className=" max-md:max-w-[90vw] container flex flex-col justify-center items-center gap-5 bg-white rounded-xl p-5 my-10">
+                <div className=" max-w-[90vw] container flex flex-col justify-center items-center gap-5 bg-white rounded-xl p-5 my-10">
                     <h1 className='text-3xl font-bold '>30 day money back guarantee</h1>
                     <p className='text-center text-xl'>We're confident in the value of this course. If you're not satisfied within 30 days of purchase, simply contact our support team and we'll provide a full refund—no hassle, no complicated process.</p>
                 </div>

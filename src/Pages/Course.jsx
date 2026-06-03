@@ -11,7 +11,7 @@ function Course() {
   return (
     <>
       <main className='w-full flex flex-col justify-center items-center bg-black pb-10'>
-        <section className='container max-lg:max-w-[90vw] bg-white rounded-3xl mb-10'>
+        <section className='container max-w-[90vw] xl:max-w-[1400px] bg-white rounded-3xl mb-10'>
           <div className="flex max-lg:flex-col justify-center items-center">
             <div className='max-lg:flex max-lg:flex-col p-10'>
               <h1 className='text-4xl font-semibold'>Your journey to being a top trader starts here</h1>
@@ -20,11 +20,11 @@ function Course() {
             <img className='h-[300px]' src="/vecteezy_technical-analysis-concept-with-man-hold-magnifying-zoom_16061548.jpg" alt="" />
           </div>
         </section>
-        <section className='container max-lg:max-w-[90vw] bg-white rounded-3xl p-10 mb-10 text-center font-bold text-4xl'>
+        <section className='container xl:max-w-[1400px] max-w-[90vw] bg-white rounded-3xl p-10 mb-10 text-center font-bold text-4xl'>
           Courses
         </section>
 
-        <section className='container max-lg:max-w-[90vw] bg-white rounded-3xl p-10 mb-10'>
+        <section className='container xl:max-w-[1400px] max-w-[90vw] bg-white rounded-3xl p-10 mb-10'>
           {/* <h1 className='text-center font-semibold text-4xl'>
             Courses
           </h1> */}
@@ -53,7 +53,7 @@ function Course() {
 
         </section>
 
-        <section className='container max-lg:max-w-[90vw] bg-white rounded-3xl p-10 mb-10'>
+        <section className='container xl:max-w-[1400px] max-w-[90vw] bg-white rounded-3xl p-10 mb-10'>
           {/* <h1 className='text-center font-semibold text-4xl'>
             Courses
           </h1> */}
@@ -81,7 +81,7 @@ function Course() {
           </div>
         </section>
 
-        <section className='container max-lg:max-w-[90vw] bg-white rounded-3xl p-10'>
+        <section className='container xl:max-w-[1400px] max-w-[90vw] bg-white rounded-3xl p-10'>
           {/* <h1 className='text-center font-semibold text-4xl'>
             Courses
           </h1> */}

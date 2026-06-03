@@ -6,7 +6,7 @@ function About() {
     return (
         <>
             <main className='w-full flex justify-center items-center text-black py-10'>
-                <section className='container max-lg:max-w-[90vw] bg-white rounded-3xl'>
+                <section className='container max-w-[90vw] bg-white rounded-3xl'>
                     <h1 className='text-center text-5xl py-10 font-bold'>About this course</h1>
                     {
                         aboutContent.map((item, index) => {

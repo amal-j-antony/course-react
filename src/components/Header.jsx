@@ -44,7 +44,7 @@ function Header() {
   }
   return (
     <div className='flex justify-center items-center bg-black'>
-      <nav className='w-full container max-lg:max-w-[90vw] flex justify-between items-center py-5 bg-black text-white'>
+      <nav className='w-full container max-w-[90vw] flex justify-between items-center py-5 bg-black text-white'>
         <span className='text-3xl font-bold flex items-center gap-2'>
           <LuTarget className='' />Alpha Academy
         </span>
