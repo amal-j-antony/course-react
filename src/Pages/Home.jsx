@@ -3,6 +3,7 @@ import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { FaArrowRight } from "react-icons/fa";
 import testimonial from '../assets/testimonials'
 import {paths} from '../assets/courses'
+import { Link } from 'react-router-dom';
 
 
 
@@ -43,14 +44,14 @@ function Home() {
                                 <div className="bg-white rounded-xl relative p-5 flex flex-col justify-center items-center">
                                     <img src={item.image} className='h-[300px] rounded-xl w-full' alt="narrative trading" />
                                     <h1 className='text-center text-xl py-3 font-semibold'>{item.title}</h1>
-                                    <button className='bg-black text-white p-5 rounded-xl hover:bg-white hover:text-black border-black border cursor-pointer w-full'>View Course</button>
+                                    <Link to={'/course'} className='bg-black text-center text-xl lg:text-lg text-white p-5 rounded-xl hover:bg-white hover:text-black border-black border cursor-pointer w-full'>View Course</Link>
                                 </div>
                             )
                         })
                     }
                 </div>
 
-                <div className="bg-white grid grid-cols-1 lg:grid-cols-3 max-lg:max-w-[90vw] container mt-10 rounded-2xl py-10 px-10">
+                <div className="bg-white grid grid-cols-1 md:grid-cols-3 max-md:max-w-[90vw] container mt-10 rounded-2xl py-10 px-10">
                     <div className="flex flex-col justify-center items-center gap-5">
                         <img className='h-80 w-full' src="/vecteezy_expert-marketing-broker-stock-trader-present-stock-market-in_5084897.jpg" alt="" />
                         {/* <div className='absolute w-full h-full flex justify-center items-center top-0 '>
@@ -67,12 +68,12 @@ function Home() {
                         <h1 className='text-2xl font-semibold'>Become an onchain alpha hunter</h1>
                     </div>
                 </div>
-                <button className='bg-white px-5 py-3 w-full max-lg:max-w-[90vw] container rounded-lg my-10 border text-xl font-semibold flex justify-center items-center gap-4 hover:bg-black hover:border-white hover:text-white cursor-pointer'>
+                <button className='bg-white px-5 py-3 w-full max-md:max-w-[90vw] container rounded-lg my-10 border text-xl font-semibold flex justify-center items-center gap-4 hover:bg-black hover:border-white hover:text-white cursor-pointer'>
                     View Courses <FaArrowRight />
                 </button>
             </section>
             <section className='flex flex-col justify-center items-center bg-black'>
-                <div className="flex flex-col justify-center items-center bg-white w-full max-lg:max-w-[90vw] container rounded-xl px-10">
+                <div className="flex flex-col justify-center items-center bg-white w-full max-md:max-w-[90vw] container rounded-xl px-10">
                     <h1 className='my-5 font-semibold text-3xl'>What our users say</h1>
                     <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 pb-10'>
                         {
@@ -92,7 +93,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className=" max-lg:max-w-[90vw] container flex flex-col justify-center items-center gap-5 bg-white rounded-xl p-5 my-10">
+                <div className=" max-md:max-w-[90vw] container flex flex-col justify-center items-center gap-5 bg-white rounded-xl p-5 my-10">
                     <h1 className='text-3xl font-bold '>30 day money back guarantee</h1>
                     <p className='text-center text-xl'>We're confident in the value of this course. If you're not satisfied within 30 days of purchase, simply contact our support team and we'll provide a full refund—no hassle, no complicated process.</p>
                 </div>
